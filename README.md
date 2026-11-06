@@ -1,4 +1,4 @@
-# dnsspy-io
+# DNS Spy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dnsspy-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dnsspy.io/
+DNS Spy provides DNS monitoring, domain security, and API access for individuals and managed service providers. It watches DNS records worldwide, tracks domain and SSL expirations, audits security, and protects brands from phishing. Features include free tools, learning resources, and a 7‑day free trial for MSPs.
+
+**Areas:** DNS · Monitoring · Security · API · MSP
+
+## DNS Spy on APIs.io
+
+Everything profiled for DNS Spy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dnsspy-io/](https://apis.io/providers/dnsspy-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [DNS Spy API](https://apis.io/apis/dnsspy-io/dns-spy-api/) — API documentation is presented via a JavaScript-rendered page that cannot be parsed for a machine-readable contract.
+- [DNS Spy API](https://apis.io/apis/dnsspy-io/dnsspy-io-api/) — DNS Spy API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-11-05); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Dnsspy Io Webhooks](https://apis.io/asyncapis/dnsspy-io/dnsspy-io-webhooks/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PostApiV1DomainsRequest](https://apis.io/schemas/dnsspy-io/dnsspy-io-post-api-v1-domains-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dnsspy Io Context](https://apis.io/jsonld/dnsspy-io/dnsspy-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [DNS Spy API Rules](https://apis.io/rules/dnsspy-io/dnsspy-io-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dnsspy Io Domain Security](https://apis.io/security/dnsspy-io/dnsspy-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dnsspy Io Plans Pricing](https://apis.io/plans/dnsspy-io/dnsspy-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dnsspy.io/)
+- [Documentation](https://dnsspy.io/docs/api)
+- [Pricing](https://dnsspy.io/pricing)
+- [Changelog](https://dnsspy.io/changelog)
+- [Blog](https://dnsspy.io/blog)
+- [Privacy policy](https://dnsspy.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.3** — developing · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 52.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 53.2 |
+
+**Agent readiness 39.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dnsspy-io/](https://apis.io/providers/dnsspy-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DNS Spy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dnsspy-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
